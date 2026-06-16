@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>zapster.cc/papers</title>
+<link rel="stylesheet" media="screen" type="text/css" href="/css/zap.css" />
+<link rel="stylesheet" media="only screen and (min-device-width: 1000px)" type="text/css" href="/css/layout.css" />
+<link rel="stylesheet" media="only screen and (max-device-width: 1000px)" type="text/css" href="/css/mobile.css" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+</head>
+
+<body>
+
+<h1 style="text-align:center;">Optimization Framework for the CACAO VM</h1>
+<h3 style="text-align:center;">master's thesis</h3>
+<h2>abstract</h2>
+<p>
+A virtual machine is a software that takes charge of executing another program. This either can be done
+by <em>interpreting</em> the instructions of the program, or by <em>compiling</em> parts of
+it when needed. The second approach is also called <em>just-in-time</em> (JIT) compilation.
+</p>
+<p>
+The Cacao VM is a virtual machine for Java bytecode. It follows a JIT-only approach meaning that
+all methods are compiled into native machine code prior execution. This requires a fast compiler to
+minimize the latency for program execution. Consequently, the compiler, called <em>baseline</em> compiler,
+uses simple data representation and the passes are highly integrated.
+While the generated machine code is adequate for most parts
+of a program, the over-all performance can be improved, if more time for better optimization is invested for
+frequently executed methods. It can not be decided a priori which methods will be called regularly.
+To gain this knowledge the virtual machine profiles the run-time behavior of the program and
+selects methods for recompilation with more efforts. This approach is known as <em>adaptive optimization</em>.
+</p>
+<p>
+So far the Cacao VM uses the baseline compiler with a higher optimization level for recompilation. This approach
+has two problems. On the one hand, the additional optimizations complicate the baseline compiler and maintenance
+is more difficult.
+On the other hand and more important, due to the simple but efficient construction the baseline compiler is inflexible
+and new optimizations are hard to implement.
+</p>
+<p>
+This work presents a new compilation framework for Cacao, which replaces the baseline compiler
+as the optimizing compiler. It features two intermediate representations. The graph-based
+<em>high-level representation</em> is intended for program analysis and transformation.
+It is designed to make optimization development fast and easy.
+The <em>low-level representation</em> is focused on tasks close to the machine level, like register allocation
+and code emission.
+The compiler contains a <em>pass manager</em> to administer the execution and data exchange of passes.
+Currently, the transformation pipeline includes IR construction, structural analysis, scheduling, instruction
+selection, register allocation and code emission.
+</p>
+<p>
+An empirical comparison between the baseline compiler and the new framework discloses the potential of the new framework
+and sets the agenda for future directions of the project.
+</p>
+
+<h2>info</h2>
+<ul>
+<li><span class="dt">title: </span><b>Optimization Framework for the CACAO VM</b></li>
+<li><span class="dt">curriculum: </span>Computational Intelligence</li>
+<li><span class="dt">year: </span>2013W</li>
+<li><span class="dt">advisor: </span><a href="http://www.complang.tuwien.ac.at/andi/">Andreas Krall</a></li>
+<li><span class="dt">group: </span><a href="http://www.complang.tuwien.ac.at">Compiler and Languages</a></li>
+<li><span class="dt">institute: </span>Computer Languages</li>
+<li><span class="dt">school: </span><a href="http://www.tuwien.ac.at">Vienna University of Technology</a></li>
+</ul>
+
+<h2>downloads</h2>
+
+<ul>
+<li><a href="./thesis.hash.pdf">thesis</a></li>
+<li><a href="./poster.pdf">poster</a></li>
+<li><a href="./bibtex.bib">bibtex</a></li>
+</ul>
+
+<h2>links</h2>
+
+<ul>
+<li><a href="http://www.cacaojvm.org">Cacao VM website</a></li>
+<li><a href="https://bitbucket.org/cacaovm/cacao-compiler2">mercurial repository</a> (compiler2)</li>
+<!--<li><a href="https://bitbucket.org/cacaovm/cacao-staging">mercurial repository</a> (Cacao VM devel)</li>-->
+</ul>
+
+<hr/>
+
+<ul><li><a href="..">back</a></li></ul>
+
+<!--
+<h2>
+    <a href="http://validator.w3.org/check?uri=referer"><img style="border-width:0px"
+        src="http://www.w3.org/Icons/valid-xhtml10-blue"
+        alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3"><img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" /></a>
+</h2>
+-->
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+li {
+  padding:0.05em;
+}
+
+.dt {
+  text-align:right;
+  display:block;
+  width:6em;
+  padding-right:1em;
+  float:left;
+}
+
+ul {
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+
+/* Link stuff */
+a {
+  text-decoration: none;
+  color: #007dff;
+}
+
+a:link {}
+a:visited {}
+
+a:hover {
+  color: #00bdff;
+}
+
+a:active {
+  color: #00bdff;
+}
+
