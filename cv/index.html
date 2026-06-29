@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curriculum Vitae &mdash; Josef Eisl</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum Vitae &mdash; Josef Eisl">
+    <meta name="author" content="Josef Eisl">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js" integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile rounded-circle" src="assets/images/profile.jpg" alt="Josef Eisl" />
+                <h1 class="name">Josef Eisl</h1>
+                <h3 class="tagline">Compilers and Virtual Machines</h3>
+            </div><!--//profile-container-->
+
+            <div class="contact-container container-block">
+                <h2 class="container-block-title">Contact</h2>
+                <ul class="list-unstyled fa-ul contact-list">
+                    <li class="email"><span class="fa-li" ><i class="fas fa-envelope"></i></span>
+                      <a href="mailto:zapster@zapster.cc">zapster@zapster.cc</a>
+                    </li>
+                    <li class="website"><span class="fa-li" ><i class="fas fa-globe"></i></span>
+                      <a href="https://zapster.cc" target="_blank">zapster.cc</a>
+                    </li>
+                    <li class="linkedin"><span class="fa-li" ><i class="fab fa-linkedin-in"></i></span>
+                      <a href="https://linkedin.com/in/zapster" target="_blank">linkedin.com/in/zapster</a>
+                    </li>
+                    <li class="github"><span class="fa-li" ><i class="fab fa-github"></i></span>
+                      <a href="https://github.com/zapster" target="_blank">github.com/zapster</a>
+                    </li>
+                    <li class="bluesky"><span class="fa-li" ><i class="fa-brands fa-bluesky"></i></span>
+                      <a href="https://bsky.app/profile/zapster.cc" target="_blank">@zapster.cc</a>
+                    </li>
+                </ul>
+            </div><!--//contact-container-->
+
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled languages-list">
+                    <li>German <span class="lang-desc">(Native)</span></li>
+                    <li>English <span class="lang-desc">(Professional)</span></li>
+                </ul>
+            </div><!--//interests-->
+
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Family</li>
+                    <li>3D Printing</li>
+                    <li>Wood Working</li>
+                    <li>Home Automation</li>
+                    <li>Electronics/IoT</li>
+                    <li>E-Bass and Trombone</li>
+                    <li>Cycling</li>
+                </ul>
+            </div><!--//interests-->
+
+        </div><!--//sidebar-wrapper-->
+
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
+                <div class="summary">
+                    <p>
+                    Hi, I am Josef.
+                    I am curious about programming languages, compilers, register allocation, virtual machines and everything related.
+                    I work as a researcher at <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:2667" target="_blank">Oracle Labs</a>.
+                    </p>
+
+                    <p>
+                    In 2014, I started working on <a href="https://www.graalvm.org/" target="_blank">GraalVM</a>,  a high-performance polyglot virtual machine.
+                    Currently, I&nbsp;am a member of the <a href="https://www.graalvm.org/reference-manual/native-image/" target="_blank">Native Image</a> team that
+                    builds the ahead-of-time compilation technology to turn Java code into standalone executables.
+                    </p>
+
+                    <p>
+                    I hold a PhD in computer science from the <a href="https://jku.at" target="_blank">Johannes Kepler University Linz</a>, Austria.
+                    During my PhD I worked on register allocation for just-in-time compilers. More precisely, I proposed a novel approach
+                    called <a href="#publications"><em>Trace Register Allocation</em></a>.
+                    The allocator was implemented in the <a href="https://github.com/oracle/graal/tree/master/compiler" target="_blank">Graal compiler</a> within the
+                    GraalVM project.
+                    My research was carried out as part of a collaboration between the <a href="http://ssw.jku.at" target="_blank">Institute for System Software</a> at the
+                    Johannes Kepler University and Oracle Labs.
+                    </p>
+                </div><!--//summary-->
+            </section><!--//section-->
+
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Principal Researcher</h3>
+                            <div class="time">2018&ndash;Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Oracle Labs, Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                          I am a researcher at <a href="https://labs.oracle.com/" target="_blank">Oracle Labs</a>
+                          working on <a href="https://www.graalvm.org/" target="_blank">GraalVM</a>.
+                          My current focus is on <a href="https://www.graalvm.org/reference-manual/native-image/" target="_blank">Native Image</a>, the ahead-of-time compiler that turns Java code into standalone executables.
+                          Before that, I worked on <a href="https://www.graalvm.org/reference-manual/llvm/" target="_blank">GraalVM LLVM Runtime</a>, the LLVM bitcode engine of GraalVM.
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">University and Research Assistant</h3>
+                            <div class="time">2014&ndash;2018</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Johannes Kepler University Linz, Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                          Until 2018 I was a university and research assistant at the <a href="http://ssw.jku.at" target="_blank">Institute for System Software</a> of the
+                          <a href="https://www.jku.at" target="_blank">Johannes Kepler University Linz</a>.
+                        </p>
+                        <p>
+                          As part of my university assistant duties, I helt the practical classes in
+                          <em>compiler construction</em> and <em>data structures</em>.
+                          In addition, I supervised <em>term projects</em>, <em>Bachelor's</em> and <em>Master's</em> theses.
+                        </p>
+                        <p>
+                          My research work was done in course of a <a href="http://ssw.jku.at/Research/Projects/JVM/" target="_blank">collaboration with Oracle Labs</a>.
+                          At the time, the collaboration covered around 12 PhD, Master and Bachelor students who worked in close ties with Oracle Labs employees in Linz
+                          and around the globe.
+                          The research focus was on compilers and virtual machines, more specifically the <a href="https://www.graalvm.org" target="_blank">GraalVM</a>.
+                          See the <a href="#projects">Projects</a> section for more details.
+                       </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Student Teaching Assistant</h3>
+                            <div class="time">2008&ndash;2012</div>
+                        </div><!--//upper-row-->
+                        <div class="company">TU Wien, Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        During my Bachelor's and Master's studies at the <a href="https://tuwien.ac.at" target="_blank">TU Wien</a>,
+                        I worked as a student teaching assistant (tutor).
+                        </p>
+                        <p>
+                        At the Algorithms and Data Structures Group, I was a tutor for the course <em>algorithms and data structures</em>.
+                        The duties include giving exercise lectures and organizing the programming assignments.
+                        </p>
+                        <p>
+                        For the Compilers and Languages Group, I offered tutorial lessons to support students solving the <em>compiler construction</em>
+                        programming exercise.
+                        </p>
+
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Technical Support (part-time)</h3>
+                            <div class="time">2007&ndash;2009</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Sony DADC, Salzburg/Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        At the beginning of my studies, I worked remotely as a part-time technical support employee
+                        for <a href="https://www.sonydadc.com/" target="_blank">Sony DADC</a> in Salzburg, Austria.
+                        The employment followed three years of summer internship as outlined below.
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Technical Support (internship)</h3>
+                            <div class="time">Summer 2004, 2005, 2006</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Sony DADC, Salzburg/Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        During my senior classes at school, I repeatedly worked as a summer intern at
+                        <a href="https://www.sonydadc.com/" target="_blank">Sony DADC</a>.
+                        I mainly worked on technical end-user support for copy control solutions.
+                        Other tasks included assembling of optical disc encryption control hardware
+                        as well as hardware compatibility testing.
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Technical Support (internship)</h3>
+                            <div class="time">Summer 2002</div>
+                        </div><!--//upper-row-->
+                        <div class="company">SKIDATA, Salzburg/Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        During the internship at <a href="https://www.skidata.com" target="_blank">SKIDATA</a>,
+                        I serviced components of parking management solutions,
+                        including disassembling, repairing and reassembling of mechanical and electronic devices.
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+            </section><!--//section-->
+
+            <section class="section education-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-graduation-cap"></i></span>Education</h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">PhD in Computer Science</h3>
+                            <div class="time">2014&ndash;2018</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Johannes Kepler University Linz, Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        I hold a PhD in computer science from the <a href="https://www.jku.at" target="_blank">Johannes Kepler University Linz</a>.
+                        My research focused on improving compilation in virtual machines.
+                        More precisely, most of my work was about <em>Trace Register Allocation</em>, a novel register allocation approach for just-in-time compilation.
+                        The idea was awarded with the <a href="https://src.acm.org/winners/2018" target="_blank">first place</a> in the graduate category of the
+                        <a href="https://src.acm.org/" target="_blank">ACM Student Research Competition</a>
+                        at the <a href="http://cgo.org/cgo2018/" target="_blank">International Symposium on Code Generation and Optimization (CGO) 2018</a>.
+                        The thesis was supervised by <a href="http://ssw.jku.at/General/Staff/HM/" target="_blank">Prof. Hanspeter Mössenböck</a>.
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">MSc in Computer Science</h3>
+                            <div class="time">2010&ndash;2014</div>
+                        </div><!--//upper-row-->
+                        <div class="company">TU Wien, Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        I received a Master's degree in <em>Computational Intelligence</em> from the <a href="https://tuwien.ac.at" target="_blank">TU Wien</a>
+                        in January 2014.
+                        The core fields of the program were
+                        <em>algorithms and complexity</em>,
+                        <em>knowledge representation and artificial intelligence</em>,
+                        <em>logic, mathematics and theoretical computer science</em>,
+                        and
+                        <em>programming languages and verification</em>.
+                        My personal focus was on the last topic, specifically on compilation and virtual machines.
+                        I wrote my Master's thesis about an <em>&quot;<a href="#publications">Optimization Framework for the CACAO VM</a>&quot;</em>,
+                        a virtual machine for Java Bytecode.
+                        The thesis was supervised by <a href="http://www.complang.tuwien.ac.at/andi/" target="_blank">Prof. Andreas Krall</a>.
+                        </p>
+
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">BSc in Computer Science</h3>
+                            <div class="time">2006&ndash;2010</div>
+                        </div><!--//upper-row-->
+                        <div class="company">TU Wien, Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        In 2010 I got my Bachelor's degree in <em>Computer Engineering</em> from the <a href="https://tuwien.ac.at" target="_blank">TU Wien</a>.
+                        In addition to the fundamental topics in computer science, the program focused on
+                        computer architecture, embedded systems engineering as well as physics and compiler construction.
+                        I wrote a Bachelor's thesis discussing <em>&quot;RFID-based Event Tracking&quot;</em>.
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Matura (A-level)</h3>
+                            <div class="time">1999&ndash;2005</div>
+                        </div><!--//upper-row-->
+                        <div class="company">HTBLA Salzburg, Austria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        I attended the <a href="http://www.htl-salzburg.ac.at" target="_blank">HTBLA Salzburg</a> (secondary technical college)
+                        at the department of <em>Electronics and Computer Engineering</em> with a focus on electronics, embedded systems and programming.
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+            </section><!--//section-->
+
+            <section id="projects" class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
+                <!--
+                <div class="intro">
+                    <p>
+                    The following selected projects I spend non-trivial amount of time during my studies.
+                    </p>
+                </div>--><!--//intro-->
+
+                <div class="item">
+                    <div class="upper-row">
+                      <span class="project-title"><a href="https://www.graalvm.org" target="_blank">GraalVM</a></span>
+                      &mdash;
+                      <span class="project-tagline">
+                      Just-in-time compiler and polyglot runtime.
+                      </span>
+                      <div class="time">2014&ndash;Present</div>
+                    </div><!--//upper-row-->
+                    <p>
+                      GraalVM is an <a href="https://labs.oracle.com" target="_blank">Oracle Labs</a> project
+                      developing a new just-in-time compiler and polyglot runtime for the Java Virtual Machine.
+                      The project, led by <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:137" target="_blank">Thomas Würthinger</a>,
+                      mainly consists of the <a href="https://github.com/oracle/graal/blob/master/compiler" target="_blank">Graal</a> just-in-time compiler,
+                      the <a href="https://github.com/oracle/graal/blob/master/truffle" target="_blank">Truffle</a> language implementation framework
+                      and <a href="https://github.com/oracle/graal/blob/master/substratevm" target="_blank">Substrate VM</a>, an ahead-of-time compilation system.
+                      Most parts of the system are open source and available on <a href="https://github.com/oracle/graal" target="_blank">GitHub</a>.
+                      <!--Fun fact: although Graal is compiling Java Bytecode, it is itself written in Java.-->
+                    </p>
+                    <p>
+                          My current focus is on <a href="https://www.graalvm.org/reference-manual/native-image/" target="_blank">Native Image</a>, the ahead-of-time compiler that turns Java code into standalone executables.
+                    </p>
+                    <p>
+                          Before that, I worked on <a href="https://www.graalvm.org/reference-manual/llvm/" target="_blank">GraalVM LLVM Runtime</a>, the LLVM bitcode engine of GraalVM.
+                    </p>
+                    <p>
+                      During my PhD, I worked on the Graal compiler where my key area coincided with my research topic, namely <em>register allocation</em>.
+                      I implemented the novel <a href="#publications"><em>Trace Register Allocation</em></a> approach on top of Graal
+                      where it has proven production quality as it is tested and benchmarked as part of Graal continuous integration
+                      pipeline since 2015. All parts of the implementation are in Graal and
+                      <a href="https://github.com/oracle/graal" target="_blank">publicly available</a>.
+                    </p>
+                    <p>
+                      I also participate in the development of GraalVMs <a href="https://github.com/graalvm/mx" target="_blank">build system <em>mx</em></a>,
+                      as well as the benchmarking and continuous integration systems, which are used throughout the project.
+                    </p>
+                    <p>
+                      During my involvement, Graal has grown from a research project into a production quality system.
+                      Many core artifacts of the project are now part of mainstream Java, such as
+                      <a href="http://openjdk.java.net/jeps/243" target="_blank">Java-level Compiler Interface (JDK9)</a>,
+                      <a href="http://openjdk.java.net/jeps/317" target="_blank">the Graal Compiler (JDK10)</a>, and more are
+                      <a href="http://openjdk.java.net/projects/metropolis/" target="_blank">about to come</a>.
+                    </p>
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="upper-row">
+                      <span class="project-title"><a href="http://www.cacaojvm.org" target="_blank">CACAO VM</a></span>
+                       &mdash;
+                      <span class="project-tagline">JIT-only Java virtual machine.</span>
+                      <div class="time">2012&ndash;2014</div>
+                    </div><!--//upper-row-->
+                    <p>
+                      CACAO was among the first Java virtual machines that followed a compile-only approach.
+                      That means all code is compiled to native code prior execution.
+                      Therefore, CACAO features a <em>baseline compiler</em> for fast compilation.
+                    </p>
+                    <p>
+                      In course of my Master's thesis, I implemented a second stage compilation framework,
+                      to improve the performance of the VM by adaptively compiling important methods with a higher degree of
+                      optimizations, compared to the baseline compiler.
+                      The work laid the foundation for <a href="https://doi.org/10.1145/3178372.3179501" target="_blank">further improvements</a> of CACAO.
+                    </p>
+                    <p>
+                      While working on the project, I established a continuous integration infrastructure,
+                      organized the transition from a legacy code hosting model to <a href="https://bitbucket.org/cacaovm/cacao-staging" target="_blank">Bitbucket</a>,
+                      and implemented code quality measures such as coverage reports, unit testing and source code documentation.
+                    </p>
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="upper-row">
+                      <span class="project-title"><a href="https://github.com/JorthVM/JorthVM" target="_blank">JorthVM</a></span>
+                      &mdash;
+                      <span class="project-tagline">A (minimal) Java virtual machine written in Forth.</span>
+                      <div class="time">2011&ndash;2012</div>
+                    </div><!--//upper-row-->
+                    <p>
+                      JorthVM was implemented as a term project for the course <em>stack-based languages</em>, together with two colleagues.
+                      The motivation was to map the execution of the stack-based Java Bytecodes
+                      to <a href="https://www.gnu.org/software/gforth/" target="_blank">Forth</a>, a stack-based programming language.
+                      Although JorthVM was at the end only able to execute the most basic snippets of Bytecodes, we learned a lot about JVM internals and
+                      the Classfile formats, as well as about untyped stack-based languages.
+                      The project sparked my interest in virtual machine design and implementation.
+                    </p>
+                </div><!--//item-->
+            </section><!--//section-->
+
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <div class="skillset">
+                    <div class="intro">
+                        <p>
+                        Since <a href="https://github.com/oracle/graal" target="_blank">Graal</a> is written in Java, this was
+                        my main programming language over the last years, although writing a compiler <em>for Java in Java</em> is not the
+                        most idiomatic use of the language.
+                        The build tool <a href="https://github.com/graalvm/mx" target="_blank"><em>mx</em></a> and a lot of the benchmarking infrastructure
+                        is written in Python, so this is a close second.
+                        </p>
+                        <p>
+                        In the course of publishing my research results, I learned to master <em>R</em> for data preparation and LaTeX as a scientific
+                        typesetting system.
+                        </p>
+                        <p>
+                        When I was working on <a href="http://www.cacaojvm.org" target="_blank">CACAO VM</a>, I gained profound experience with C and C++.
+                        However, the C++ language underwent drastic improvements since then so my know-how might be a bit dated.
+                        </p>
+                        <p>
+                        I am a happy GNU/Linux user for 15+ years. <i class="fab fa-linux"></i>
+                        </p>
+                    </div><!--//intro-->
+                    <div class="item">
+                        <h3 class="level-title">Compiler Construction</h3>
+                        <div class="progress level-bar">
+          						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Java</h3>
+                        <div class="progress level-bar">
+            						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Linux &amp; Unix</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Python</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Bash</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 79%" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">C &amp; C++</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">HTML &amp; CSS</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">JavaScript</h3>
+                        <div class="progress level-bar">
+        						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                            <!-- <div class="level-bar-inner" data-level="65%"> </div> -->
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">LaTeX</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">R &amp; Tidyverse</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+
+                </div>
+            </section><!--//skills-section-->
+
+            <section id="other" class="section other-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-users"></i></span>Additional Information</h2>
+                <div class="intro">
+                    <p>
+                    I am a member of a brass band where I play the trombone.
+                    In the past, I played e-bass in several bands.
+                    I was a mentor at <a href="https://jugendhackt.org/" target="_blank">JugendHackt.at</a>,
+                    a <em>youth hackathon</em> for 12-18 year olds.
+                    In 2006, I completed my mandatory military service.
+                    I hold a driving license for the categories A, B, and C.
+                    </p>
+                </div><!--//intro-->
+
+                <div class="item">
+                    <p>
+                    </p>
+                </div><!--//item-->
+            </section><!--//section-->
+
+            <section id="publications" class="section publications-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa fa-file"></i></span>Publications</h2>
+                <div class="intro">
+                    <p>
+                      The following list contains peer-review papers and theses, mostly related to my research topic <em>Trace Register Allocation</em>.
+                    </p>
+                </div><!--//intro-->
+                <div id="publication-list">
+                </div>
+            </section><!--//publications-section-->
+
+        </div><!--//main-body-->
+    </div>
+
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/publications.min.js"></script>
+</body>
+</html>

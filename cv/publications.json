@@ -1,0 +1,183 @@
+[
+  {
+    "title": "Trace Register Allocation",
+    "author": [
+      "Josef Eisl"
+    ],
+    "school": "Johannes Kepler University Linz",
+    "year": "2018",
+    "month": "10",
+    "owner": "zapster",
+    "preprinturl": "http://ssw.jku.at/General/Staff/Eisl/papers/phdthesis.pdf",
+    "url": "https://resolver.obvsg.at/urn:nbn:at:at-ubl:1-25787",
+    "urn": "urn:nbn:at:at-ubl:1-25787",
+    "bibtexKey": "Eisl2018PhDThesis",
+    "itemType": "phdthesis"
+  },
+  {
+    "title": "Parallel Trace Register Allocation",
+    "author": [
+      "Josef Eisl",
+      "David Leopoldseder",
+      "Hanspeter Mössenböck"
+    ],
+    "booktitle": "Proceedings of the 15th International Conference on Managed Languages & Runtimes",
+    "year": "2018",
+    "month": "9",
+    "publisher": "ACM",
+    "series": "ManLang 2018",
+    "acmauthorizer": "N675121",
+    "acmid": "3237010",
+    "doi": "10.1145/3237009.3237010",
+    "owner": "zapster",
+    "preprinturl": "http://ssw.jku.at/General/Staff/Eisl/papers/ManLang_2018_ParallelTraceRA.pdf",
+    "bibtexKey": "Eisl2018ParallelTraceRA",
+    "itemType": "inproceedings"
+  },
+  {
+    "title": "Divide and Allocate: The Trace Register Allocation Framework (Extended Grand Finals Version)",
+    "author": [
+      "Josef Eisl"
+    ],
+    "booktitle": "ACM Student Research Competition Grand Finals",
+    "year": "2018",
+    "month": "5",
+    "publisher": "ACM",
+    "series": "SRC'18",
+    "comment": "Submitted to the ACM Student Research Competition Grand Finals 2018",
+    "owner": "zapster",
+    "url": "https://src.acm.org/binaries/content/assets/src/2018/josef-eisl.pdf",
+    "bibtexKey": "Eisl2018SRCGrandFinals",
+    "itemType": "inproceedings"
+  },
+  {
+    "title": "Divide and Allocate: The Trace Register Allocation Framework",
+    "author": [
+      "Josef Eisl"
+    ],
+    "booktitle": "Companion Proceedings of the 2018 International Symposium on Code Generation and Optimization",
+    "year": "2018",
+    "month": "2",
+    "publisher": "ACM",
+    "series": "CGO'18",
+    "comment": "Peer Reviewed Extended Abstract, Winner CGO ACM Student Research Competition Graduate Category",
+    "owner": "zapster",
+    "posterurl": "http://ssw.jku.at/General/Staff/Eisl/papers/CGO_SRC2018_poster.pdf",
+    "preprinturl": "http://ssw.jku.at/General/Staff/Eisl/papers/CGO_SRC2018.pdf",
+    "slidesurl": "http://ssw.jku.at/General/Staff/Eisl/papers/CGO_SRC2018_slides.pdf",
+    "bibtexKey": "Eisl2018SRC",
+    "itemType": "inproceedings"
+  },
+  {
+    "title": "Dominance-based Duplication Simulation (DBDS) &ndash; Code Duplication to Enable Compiler Optimizations",
+    "author": [
+      "David Leopoldseder",
+      "Lukas Stadler",
+      "Thomas Würthinger",
+      "Josef Eisl",
+      "Doug Simon",
+      "Hanspeter Mössenböck"
+    ],
+    "booktitle": "Proceedings of the 2018 International Symposium on Code Generation and Optimization",
+    "year": "2018",
+    "month": "2",
+    "publisher": "ACM",
+    "series": "CGO'18",
+    "acmauthorizer": "N42017",
+    "acmid": "3168811",
+    "comment": "best paper finalist",
+    "doi": "10.1145/3168811",
+    "owner": "zapster",
+    "preprinturl": "http://ssw.jku.at/General/Staff/Leopoldseder/DBDS_CGO18_Preprint.pdf",
+    "bibtexKey": "DBDS2018",
+    "itemType": "inproceedings"
+  },
+  {
+    "title": "Trace Register Allocation Policies: Compile-time vs. Performance Trade-offs",
+    "author": [
+      "Josef Eisl",
+      "Stefan Marr",
+      "Thomas Würthinger",
+      "Hanspeter Mössenböck"
+    ],
+    "booktitle": "Proceedings of the 14th International Conference on Managed Languages & Runtimes",
+    "year": "2017",
+    "month": "9",
+    "publisher": "ACM",
+    "series": "ManLang 2017",
+    "acmauthorizer": "N46288",
+    "acmid": "3132209",
+    "doi": "10.1145/3132190.3132209",
+    "owner": "zapster",
+    "preprinturl": "http://ssw.jku.at/General/Staff/Eisl/papers/ManLang_2017_TraceRAPolicies.pdf",
+    "url": "http://ssw.jku.at/General/Staff/Eisl/papers/ManLang_2017_TraceRAPolicies.pdf",
+    "bibtexKey": "Eisl2017TraceRAPolicies",
+    "itemType": "inproceedings"
+  },
+  {
+    "title": "Trace-based Register Allocation in a JIT Compiler",
+    "author": [
+      "Josef Eisl",
+      "Matthias Grimmer",
+      "Doug Simon",
+      "Thomas Würthinger",
+      "Hanspeter Mössenböck"
+    ],
+    "booktitle": "Proceedings of the 13th International Conference on Principles and Practices of Programming on the Java Platform: Virtual Machines, Languages, and Tools",
+    "year": "2016",
+    "address": "New York, NY, USA",
+    "pages": "14:1&ndash;14:11",
+    "publisher": "ACM",
+    "series": "PPPJ'16",
+    "acmauthorizer": "N10036",
+    "acmid": "2972211",
+    "articleno": "14",
+    "doi": "10.1145/2972206.2972211",
+    "isbn": "978-1-4503-4135-6",
+    "keywords": "Just-in-Time Compilation, Linear Scan, Register Allocation, Trace Compilation, Trace Register Allocation, Virtual Machines",
+    "location": "Lugano, Switzerland",
+    "numpages": "11",
+    "owner": "zapster",
+    "preprinturl": "http://ssw.jku.at/General/Staff/Eisl/papers/2016_PPPJ_TraceRA-preprint.pdf",
+    "url": "http://doi.acm.org/10.1145/2972206.2972211",
+    "bibtexKey": "Eisl2016PPPJ",
+    "itemType": "inproceedings"
+  },
+  {
+    "title": "Trace Register Allocation",
+    "author": [
+      "Josef Eisl"
+    ],
+    "booktitle": "Companion Proceedings of the 2015 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity",
+    "year": "2015",
+    "address": "New York, NY, USA",
+    "pages": "21&ndash;23",
+    "publisher": "ACM",
+    "series": "SPLASH Companion 2015",
+    "acmauthorizer": "N07672",
+    "acmid": "2814199",
+    "comment": "SPLASH 2015 Doctoral Symposium Vision Paper",
+    "doi": "10.1145/2814189.2814199",
+    "isbn": "978-1-4503-3722-9",
+    "keywords": "Register allocation, just-in-time compilation, linear scan, trace compilation, virtual machines",
+    "location": "Pittsburgh, PA, USA",
+    "numpages": "3",
+    "owner": "zapster",
+    "preprinturl": "http://ssw.jku.at/General/Staff/Eisl/papers/SPLASH15-ds-trace-ra-preprint.pdf",
+    "url": "http://doi.acm.org/10.1145/2814189.2814199",
+    "bibtexKey": "Eisl2015TraceRA",
+    "itemType": "inproceedings"
+  },
+  {
+    "title": "Optimization Framework for the CACAO VM",
+    "author": [
+      "Josef Eisl"
+    ],
+    "school": "TU Wien",
+    "year": "2013",
+    "owner": "zapster",
+    "url": "http://zapster.cc/papers/mastersthesis/",
+    "bibtexKey": "ZapsterMScThesis2013",
+    "itemType": "mastersthesis"
+  }
+]
